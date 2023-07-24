@@ -1,6 +1,7 @@
  .contenu_accueil{
   display:flex;
   flex-flow: row wrap;
+
  }
 
  .contenu_accueil span:nth-of-type(1){
@@ -35,11 +36,148 @@
   top:470px;
   left:1650px;
  }
+ .message{
+  margin-left:10%;
+  margin-top:5vh;
+  width:40%;
+  color: white;
+  word-spacing:0.2rem;
+  line-height:2rem;
+}
+.message h1{
+  text-align: center;
+  margin-bottom: 4%;
+}
+.message p{
+padding-bottom: 5px;
+}
+.message p:last-child{
+padding-top: 5px;
+padding-left:5px;
+}
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 1791px) {
+  .contenu_accueil span:nth-of-type(1){
+    left:1000px;
+  }
+  .contenu_accueil span:nth-of-type(2){
+    left:1100px;
+  }
+  .contenu_accueil span:nth-of-type(3){
+    left:1350px;
+  }
+  .contenu_accueil span:nth-of-type(4){
+    left:1450px;
+  }
+  .message{
+    margin-left:10%;
+    margin-top:5vh;
+    width:40%;
+    color: white;
+    word-spacing:0.2rem;
+    line-height:2rem;
+  }
+  .message h1{
+    text-align: center;
+    margin-bottom: 4%;
+ }
+ .message p{
+  padding-bottom: 5px;
+ }
+ .message p:last-child{
+  padding-top: 5px;
+  padding-left:5px;
+ }
+ }
+ @media screen and (max-width: 1601px) {
+  .contenu_accueil span:nth-of-type(1){
+    left:800px;
+  }
+  .contenu_accueil span:nth-of-type(2){
+    left:900px;
+  }
+  .contenu_accueil span:nth-of-type(3){
+    left:1150px;
+  }
+  .contenu_accueil span:nth-of-type(4){
+    left:1250px;
+  }
+  .message{
+    margin-left:5%;
+    margin-top:5vh;
+    width:45%;
+    color: white;
+    word-spacing:0.2rem;
+  }
+  .message h1{
+    text-align: center;
+    margin-bottom: 4%;
+ }
+ .message p{
+  padding-bottom: 5px;
+ }
+ .message p:last-child{
+  padding-top: 5px;
+  padding-left:5px;
+ }
+ }
+
+ @media screen and (max-width: 1385px) {
+  .contenu_accueil span:nth-of-type(1){
+    left:700px;
+  }
+  .contenu_accueil span:nth-of-type(2){
+    left:800px;
+  }
+  .contenu_accueil span:nth-of-type(3){
+    left:1050px;
+  }
+  .contenu_accueil span:nth-of-type(4){
+    left:1150px;
+  }
+  .message{
+    margin-left:5%;
+    margin-top:5vh;
+    width:45%;
+    color: white;
+    word-spacing:0.2rem;
+  }
+  .message h1{
+    text-align: center;
+    margin-bottom: 4%;
+ }
+ .message p{
+  padding-bottom: 5px;
+ }
+ .message p:last-child{
+  padding-top: 5px;
+  padding-left:5px;
+ }
+ }
+
+ @media screen and (max-width: 1180px) {
   .contenu_accueil{
     position: absolute;
     top:10px;
     overflow: hidden;
   }
+  .message{
+    margin-left:20%;
+    margin-top:5vh;
+    width:60%;
+    color: white;
+    word-spacing:0.2rem;
+  }
+  .message h1{
+    text-align: center;
+    margin-bottom: 4%;
+
  }
+ .message p{
+  padding-bottom: 5px;
+ }
+ .message p:last-child{
+  padding-top: 5px;
+  padding-left:5px;
+ }
+}

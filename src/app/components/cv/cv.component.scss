@@ -8,3 +8,20 @@
   width:50vw;
   height:75vh;
 }
+
+@media screen and (max-width:750px){
+  .cv{
+    margin-left:10%;
+  }
+  .cv embed{
+    width:80vw;
+  }
+}
+@media screen and (max-width:600px){
+  .cv{
+    margin-left:0;
+  }
+  .cv embed{
+    width:100vw;
+  }
+}

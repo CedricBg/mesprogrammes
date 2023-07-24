@@ -1,0 +1,24 @@
+.Contain{
+  width:75vw;
+  height: 75vh;
+  display: flex;
+
+  margin-left:10vw;
+  flex-flow: column wrap;
+}
+
+.Contain h2{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+li{
+  list-style: none;
+  text-decoration: underline;
+}
+
+.Contain a{
+  text-decoration: none;
+  color :azure;
+  padding-right:10px;
+}
