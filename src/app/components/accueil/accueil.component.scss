@@ -1,7 +1,6 @@
  .contenu_accueil{
   display:flex;
   flex-flow: row wrap;
-
  }
 
  .contenu_accueil span:nth-of-type(1){
@@ -43,6 +42,7 @@
   color: white;
   word-spacing:0.2rem;
   line-height:2rem;
+  overflow: auto;
 }
 .message h1{
   text-align: center;
@@ -141,6 +141,8 @@ padding-left:5px;
     width:45%;
     color: white;
     word-spacing:0.2rem;
+    height: 70vh;
+
   }
   .message h1{
     text-align: center;
@@ -149,10 +151,10 @@ padding-left:5px;
  .message p{
   padding-bottom: 5px;
  }
- .message p:last-child{
-  padding-top: 5px;
-  padding-left:5px;
- }
+  .message p:last-child{
+    padding-top: 5px;
+    padding-left:5px;
+  }
  }
 
  @media screen and (max-width: 1180px) {
@@ -161,17 +163,20 @@ padding-left:5px;
     top:10px;
     overflow: hidden;
   }
-  .message{
+  .message{ display: flex;
+    flex-direction: column;
     margin-left:20%;
     margin-top:5vh;
     width:60%;
     color: white;
     word-spacing:0.2rem;
+    overflow: scroll;
+    height: 70vh;
+
   }
   .message h1{
     text-align: center;
     margin-bottom: 4%;
-
  }
  .message p{
   padding-bottom: 5px;
@@ -180,4 +185,16 @@ padding-left:5px;
   padding-top: 5px;
   padding-left:5px;
  }
+}
+@media screen and (max-width: 600px) {
+  .message{
+    margin-left:10%;
+    width:80%;
+    height: 70vh;
+  }
+}
+@media screen and (max-height: 600px) {
+  .contenu_accueil{
+    overflow: hidden;
+}
 }
