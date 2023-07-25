@@ -2,23 +2,35 @@
   width:75vw;
   height: 75vh;
   display: flex;
-
   margin-left:10vw;
   flex-flow: column wrap;
 }
 
-.Contain h2{
+.Contain h1{
   text-align: center;
-  padding-bottom: 2%;
-}
-
-li{
-  list-style: none;
-  text-decoration: underline;
+  padding-bottom: 10vh;
 }
 
 .Contain a{
   text-decoration: none;
   color :azure;
   padding-right:10px;
+}
+table{
+
+  width: 80%;
+  margin-left: 10%;
+}
+th{
+  height: 10vh;
+}
+td{
+  text-align: center;
+
+}
+td a:hover{
+  color:cornsilk;
+}
+tr{
+  height:5vh;
 }

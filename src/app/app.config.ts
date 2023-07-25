@@ -1,5 +1,6 @@
 import { ApplicationConfig } from '@angular/core';
 import { Routes, provideRouter } from '@angular/router';
+import { provideAnimations } from '@angular/platform-browser/animations';
 
 
 const routes: Routes = [
@@ -11,6 +12,6 @@ const routes: Routes = [
 ]
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)]
+  providers: [provideRouter(routes), provideAnimations()]
 };
 
